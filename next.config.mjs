@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   env:{
-  NEXT_PUBLIC_API_URL : "https://content.wpgraphql.com/graphql',"
+  NEXT_PUBLIC_API_URL : "http://naturenest.local/graphql"
   }
 };
 
