@@ -24,7 +24,7 @@ export default function Home() {
 
         const url = process.env.NEXT_PUBLIC_API_URL;
 
-        const res = await fetch(url, {
+        const res = await fetch(url+"/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
